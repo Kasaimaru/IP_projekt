@@ -1,0 +1,93 @@
+* {
+    font-family: 'Lucida Sans Unicode';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+.top{
+    background-color: #242424;
+    color: rgb(228, 228, 228);
+    font-size: 40pt;
+    padding-top: 0.1em;
+    padding-left: 15pt;
+    margin-top: -0.1em;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    font-size: 17pt;
+    background-color: #242424;
+    color: rgb(228, 228, 228);
+    margin-top: -0.4em;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    transition: all 0.25s;
+
+    
+    
+}
+.menu a{
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-bottom: 2pt;
+}
+.menu a:hover{
+    color: white;
+    background-color:#141414;
+    transition: all 0.25s ;
+}
+body{
+    background-image: url(img/jezero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60em;
+    background-attachment: fixed;
+    min-width: 500px;
+}
+.bot{
+    margin: 8em;
+    margin-top: 16em;
+    background-color: #4b4b4bc5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.bot h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20pt;
+    padding-left: 35pt;
+    font-size: 35pt;
+    
+}
+.bot p{
+    padding-top: 20pt;
+    padding-left: 35pt;
+    font-size: 20pt;
+    
+    font-family: 'Lucida Sans Unicode','Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.foto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2em;
+    align-content: center;
+}
+.foto img{
+    
+    border: solid 5px white;
+    margin: 0.5em;
+}
+h2{
+    padding-left: 35pt;
+}
