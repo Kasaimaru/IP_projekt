@@ -1,2 +1,0 @@
-among us
-sus
